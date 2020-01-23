@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube API</title>
+        <meta charset="UTF-8" />
+        <link href="./css/index.css" type="text/css" rel="stylesheet"/>
+        
+    </head>
+    <body>
+        <div>
+            <form id="videosForm">
+                <div>
+                    <label for="searchTitle"></label>
+                        <p>Search Youtube video</p>
+                    <input type="text" name="searchTitle" id="searchBox"></input>
+                </div>
+                <div>
+                    <input type="submit" id="searchButton" name="searchTitle"></input> 
+                </div>
+            </form>
+        </div>
+        
+        <div id="list">
+
+        </div>
+        <div>
+            <p>
+                <button type="button" id="prevPage" class="buttons">Previous Page</button>
+                <button type="button" id="nextPage" class="buttons">Next Page</button>
+            </p>
+        </div>
+    </body>
+    <footer>
+       <p> By Victor Villarreal</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>     
+    <script src="./js/index.js"></script>
+</html>
+
